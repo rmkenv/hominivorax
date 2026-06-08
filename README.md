@@ -1,6 +1,6 @@
 # Screwworm Watch
 
-Esri-style operations dashboard for USDA APHIS screwworm surveillance tracking, with USDA NASS cattle census overlay.
+Operational dashboard for USDA APHIS screwworm surveillance tracking, with USDA NASS cattle census overlay.
 
 Built with Next.js + Maplibre GL, deployed to Vercel, with nightly data ETL via GitHub Actions.
 
