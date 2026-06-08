@@ -437,9 +437,18 @@ export default function ScrewwormDashboard() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-900 border-t border-gray-800 px-6 py-1.5 text-xs text-gray-500 flex justify-between shrink-0">
-        <span>{CASE_DATA.metadata.dataSource}</span>
-        <span>{CASE_DATA.metadata.jurisdiction}</span>
+      <footer className="bg-gray-900 border-t border-gray-800 px-4 py-2 shrink-0 space-y-1">
+        <div className="flex justify-between text-xs text-gray-500">
+          <span>{CASE_DATA.metadata.dataSource}</span>
+          <span>{CASE_DATA.metadata.jurisdiction}</span>
+        </div>
+        <p className="text-xs text-yellow-500/80 text-center">
+          ⚠ This tool is not endorsed by, produced by, affiliated with, or monitored by the USDA or any government agency.
+          For official information visit{' '}
+          <a href="https://www.aphis.usda.gov" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-400 transition-colors">
+            aphis.usda.gov
+          </a>.
+        </p>
       </footer>
     </div>
   );
