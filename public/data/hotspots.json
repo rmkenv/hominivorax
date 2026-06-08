@@ -1,0 +1,22 @@
+{
+  "_note": "This file is overwritten nightly by the GitHub Actions ETL pipeline.",
+  "metadata": {
+    "lastUpdated": "2024-06-08T02:00:00Z",
+    "dataSource": "USDA APHIS - Screwworm Eradication Program",
+    "jurisdiction": "United States + Mexico Border Region"
+  },
+  "summary": {
+    "totalCases": 156,
+    "activeCases": 23,
+    "newCases7d": 8,
+    "recoveryRate": 94.2,
+    "trend": "declining"
+  },
+  "hotspots": [
+    {"id":"tx-south-padre","name":"South Padre Island, TX","lat":26.1155,"lng":-97.167,"caseCount":12,"severity":"high","status":"containment","confirmedDate":"2024-06-01","cattlePopulation":125000,"riskLevel":"critical"},
+    {"id":"az-yuma","name":"Yuma County, AZ","lat":32.7157,"lng":-114.6294,"caseCount":5,"severity":"medium","status":"investigation","confirmedDate":"2024-05-28","cattlePopulation":48500,"riskLevel":"high"},
+    {"id":"nm-hidalgo","name":"Hidalgo County, NM","lat":32.3792,"lng":-108.7139,"caseCount":3,"severity":"low","status":"monitoring","confirmedDate":"2024-06-03","cattlePopulation":28200,"riskLevel":"moderate"},
+    {"id":"ca-imperial","name":"Imperial County, CA","lat":32.9088,"lng":-115.5603,"caseCount":2,"severity":"low","status":"monitoring","confirmedDate":"2024-05-30","cattlePopulation":15800,"riskLevel":"low"},
+    {"id":"fl-miami","name":"Miami-Dade County, FL","lat":25.7617,"lng":-80.1918,"caseCount":1,"severity":"low","status":"investigation","confirmedDate":"2024-06-02","cattlePopulation":8500,"riskLevel":"moderate"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "env": [
+    "SCREWWORM_DATA_API_URL",
+    "USDA_APHIS_API_KEY"
+  ],
+  "functions": {
+    "api/cases.js": {
+      "memory": 512,
+      "maxDuration": 60
+    },
+    "api/hotspots.js": {
+      "memory": 1024,
+      "maxDuration": 120
+    }
+  }
+}

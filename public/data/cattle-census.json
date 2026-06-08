@@ -1,0 +1,22 @@
+{
+  "_note": "This file is overwritten nightly by the GitHub Actions ETL pipeline.",
+  "metadata": {
+    "source": "USDA NASS - National Agricultural Statistics Service",
+    "year": 2023,
+    "unit": "head of cattle per county",
+    "lastUpdated": "2024-06-08T02:00:00Z",
+    "dataUrl": "https://quickstats.nass.usda.gov/"
+  },
+  "summary": {
+    "totalCounties": 6,
+    "states": ["TX","AZ","NM","CA","FL"],
+    "totalCattle": 321000
+  },
+  "counties": [
+    {"id":"tx-south-padre","state":"TX","county":"Willacy","cattle":125000,"dairy":42000,"feedlot":58000,"grazing":25000,"density":"very-high","lat":26.2234,"lng":-97.52},
+    {"id":"az-yuma","state":"AZ","county":"Yuma","cattle":48500,"dairy":18000,"feedlot":22000,"grazing":8500,"density":"high","lat":32.7157,"lng":-114.6294},
+    {"id":"nm-hidalgo","state":"NM","county":"Luna","cattle":28200,"dairy":9500,"feedlot":12000,"grazing":6700,"density":"medium","lat":32.3792,"lng":-108.7139},
+    {"id":"ca-imperial","state":"CA","county":"Imperial","cattle":15800,"dairy":6200,"feedlot":7000,"grazing":2600,"density":"medium","lat":32.9088,"lng":-115.5603},
+    {"id":"fl-miami","state":"FL","county":"Miami-Dade","cattle":8500,"dairy":0,"feedlot":2000,"grazing":6500,"density":"low","lat":25.7617,"lng":-80.1918}
+  ]
+}
