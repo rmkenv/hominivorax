@@ -1,0 +1,77 @@
+name: Screwworm + Cattle Census Data ETL
+
+on:
+  schedule:
+    # Run nightly at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      full_sync:
+        description: 'Perform full data sync'
+        required: false
+        default: 'false'
+
+jobs:
+  scrape-and-process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas geopandas shapely beautifulsoup4 lxml python-dateutil pytz
+
+      - name: Fetch USDA APHIS screwworm data
+        env:
+          USDA_APHIS_API_KEY: ${{ secrets.USDA_APHIS_API_KEY }}
+        run: |
+          python scripts/etl/screwworm_scraper.py
+
+      - name: Fetch USDA NASS cattle census data
+        env:
+          NASS_QUICKSTATS_API_KEY: ${{ secrets.NASS_QUICKSTATS_API_KEY }}
+        run: |
+          python scripts/etl/cattle_census_fetcher.py
+
+      - name: Process and geocode cases
+        run: |
+          python scripts/etl/geocode_cases.py
+
+      - name: Analyze hotspots and calculate risk
+        run: |
+          python scripts/etl/analyze_hotspots.py
+
+      - name: Build GeoJSON output with cattle overlay
+        run: |
+          python scripts/etl/build_geojson.py
+
+      - name: Publish to Vercel KV (optional)
+        env:
+          VERCEL_KV_REST_API_URL: ${{ secrets.VERCEL_KV_REST_API_URL }}
+          VERCEL_KV_REST_API_TOKEN: ${{ secrets.VERCEL_KV_REST_API_TOKEN }}
+        run: |
+          python scripts/etl/publish_kv.py
+
+      - name: Commit and push updates
+        run: |
+          git config user.name 'Screwworm ETL Bot'
+          git config user.email 'noreply@screwworm-watch.local'
+          git add data/cases.json data/hotspots.geojson data/cattle-census.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update screwworm & cattle census data [skip ci]" && git push)
+
+      - name: Send Slack notification
+        if: always()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          python scripts/notifications/slack_alert.py
