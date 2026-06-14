@@ -36,7 +36,6 @@ def main():
         print('[analyze] hotspots list is empty — nothing to score')
         return
 
-    # Build cattle lookup by hotspot id
     cattle_lookup = {}
     cattle_data = load_json(DATA_DIR / 'cattle-census.json', 'cattle')
     if cattle_data:
@@ -55,7 +54,6 @@ def main():
         h['riskScore']        = risk_score
         h['riskLevel']        = risk_level
 
-    # Update summary and rewrite
     hotspot_data['metadata']['lastUpdated'] = datetime.now(timezone.utc).isoformat()
     hotspot_data['hotspots'] = hotspots
 
