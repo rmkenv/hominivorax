@@ -1,22 +1,4262 @@
 {
-  "_note": "This file is overwritten nightly by the GitHub Actions ETL pipeline.",
   "metadata": {
-    "source": "USDA NASS - National Agricultural Statistics Service",
-    "year": 2023,
+    "source": "USDA NASS QuickStats",
+    "year": 2022,
     "unit": "head of cattle per county",
-    "lastUpdated": "2024-06-08T02:00:00Z",
+    "lastUpdated": "2026-06-14T17:01:47.951958+00:00",
     "dataUrl": "https://quickstats.nass.usda.gov/"
   },
   "summary": {
-    "totalCounties": 6,
-    "states": ["TX","AZ","NM","CA","FL"],
-    "totalCattle": 321000
+    "totalCounties": 424,
+    "states": [
+      "TX",
+      "AZ",
+      "NM",
+      "CA",
+      "FL"
+    ],
+    "totalCattle": 43367874
   },
   "counties": [
-    {"id":"tx-south-padre","state":"TX","county":"Willacy","cattle":125000,"dairy":42000,"feedlot":58000,"grazing":25000,"density":"very-high","lat":26.2234,"lng":-97.52},
-    {"id":"az-yuma","state":"AZ","county":"Yuma","cattle":48500,"dairy":18000,"feedlot":22000,"grazing":8500,"density":"high","lat":32.7157,"lng":-114.6294},
-    {"id":"nm-hidalgo","state":"NM","county":"Luna","cattle":28200,"dairy":9500,"feedlot":12000,"grazing":6700,"density":"medium","lat":32.3792,"lng":-108.7139},
-    {"id":"ca-imperial","state":"CA","county":"Imperial","cattle":15800,"dairy":6200,"feedlot":7000,"grazing":2600,"density":"medium","lat":32.9088,"lng":-115.5603},
-    {"id":"fl-miami","state":"FL","county":"Miami-Dade","cattle":8500,"dairy":0,"feedlot":2000,"grazing":6500,"density":"low","lat":25.7617,"lng":-80.1918}
+    {
+      "id": "tx-011",
+      "state": "TX",
+      "county": "Armstrong",
+      "fips": "48011",
+      "cattle": 71091,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-045",
+      "state": "TX",
+      "county": "Briscoe",
+      "fips": "48045",
+      "cattle": 67616,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-065",
+      "state": "TX",
+      "county": "Carson",
+      "fips": "48065",
+      "cattle": 33539,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-069",
+      "state": "TX",
+      "county": "Castro",
+      "fips": "48069",
+      "cattle": 1047951,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-111",
+      "state": "TX",
+      "county": "Dallam",
+      "fips": "48111",
+      "cattle": 623651,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-117",
+      "state": "TX",
+      "county": "Deaf Smith",
+      "fips": "48117",
+      "cattle": 1300069,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-153",
+      "state": "TX",
+      "county": "Floyd",
+      "fips": "48153",
+      "cattle": 110490,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-179",
+      "state": "TX",
+      "county": "Gray",
+      "fips": "48179",
+      "cattle": 197562,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-189",
+      "state": "TX",
+      "county": "Hale",
+      "fips": "48189",
+      "cattle": 256898,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-195",
+      "state": "TX",
+      "county": "Hansford",
+      "fips": "48195",
+      "cattle": 540421,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-205",
+      "state": "TX",
+      "county": "Hartley",
+      "fips": "48205",
+      "cattle": 820346,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-211",
+      "state": "TX",
+      "county": "Hemphill",
+      "fips": "48211",
+      "cattle": 123869,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-233",
+      "state": "TX",
+      "county": "Hutchinson",
+      "fips": "48233",
+      "cattle": 50193,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-295",
+      "state": "TX",
+      "county": "Lipscomb",
+      "fips": "48295",
+      "cattle": 85224,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-341",
+      "state": "TX",
+      "county": "Moore",
+      "fips": "48341",
+      "cattle": 320142,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-357",
+      "state": "TX",
+      "county": "Ochiltree",
+      "fips": "48357",
+      "cattle": 157429,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-359",
+      "state": "TX",
+      "county": "Oldham",
+      "fips": "48359",
+      "cattle": 192225,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-369",
+      "state": "TX",
+      "county": "Parmer",
+      "fips": "48369",
+      "cattle": 702742,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-375",
+      "state": "TX",
+      "county": "Potter",
+      "fips": "48375",
+      "cattle": 65719,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-381",
+      "state": "TX",
+      "county": "Randall",
+      "fips": "48381",
+      "cattle": 446146,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-393",
+      "state": "TX",
+      "county": "Roberts",
+      "fips": "48393",
+      "cattle": 40073,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-421",
+      "state": "TX",
+      "county": "Sherman",
+      "fips": "48421",
+      "cattle": 465969,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-437",
+      "state": "TX",
+      "county": "Swisher",
+      "fips": "48437",
+      "cattle": 416293,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-003",
+      "state": "TX",
+      "county": "Andrews",
+      "fips": "48003",
+      "cattle": 22860,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-017",
+      "state": "TX",
+      "county": "Bailey",
+      "fips": "48017",
+      "cattle": 258705,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-079",
+      "state": "TX",
+      "county": "Cochran",
+      "fips": "48079",
+      "cattle": 12743,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-107",
+      "state": "TX",
+      "county": "Crosby",
+      "fips": "48107",
+      "cattle": 19486,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-115",
+      "state": "TX",
+      "county": "Dawson",
+      "fips": "48115",
+      "cattle": 8958,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-165",
+      "state": "TX",
+      "county": "Gaines",
+      "fips": "48165",
+      "cattle": 19572,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-173",
+      "state": "TX",
+      "county": "Glasscock",
+      "fips": "48173",
+      "cattle": 11816,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-219",
+      "state": "TX",
+      "county": "Hockley",
+      "fips": "48219",
+      "cattle": 16859,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-227",
+      "state": "TX",
+      "county": "Howard",
+      "fips": "48227",
+      "cattle": 18584,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-279",
+      "state": "TX",
+      "county": "Lamb",
+      "fips": "48279",
+      "cattle": 341623,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-303",
+      "state": "TX",
+      "county": "Lubbock",
+      "fips": "48303",
+      "cattle": 78532,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-305",
+      "state": "TX",
+      "county": "Lynn",
+      "fips": "48305",
+      "cattle": 16992,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-317",
+      "state": "TX",
+      "county": "Martin",
+      "fips": "48317",
+      "cattle": 7038,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-329",
+      "state": "TX",
+      "county": "Midland",
+      "fips": "48329",
+      "cattle": 13625,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-445",
+      "state": "TX",
+      "county": "Terry",
+      "fips": "48445",
+      "cattle": 31496,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-501",
+      "state": "TX",
+      "county": "Yoakum",
+      "fips": "48501",
+      "cattle": 19856,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-033",
+      "state": "TX",
+      "county": "Borden",
+      "fips": "48033",
+      "cattle": 26575,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-075",
+      "state": "TX",
+      "county": "Childress",
+      "fips": "48075",
+      "cattle": 26743,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-087",
+      "state": "TX",
+      "county": "Collingsworth",
+      "fips": "48087",
+      "cattle": 39168,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-101",
+      "state": "TX",
+      "county": "Cottle",
+      "fips": "48101",
+      "cattle": 45292,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-125",
+      "state": "TX",
+      "county": "Dickens",
+      "fips": "48125",
+      "cattle": 47739,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-129",
+      "state": "TX",
+      "county": "Donley",
+      "fips": "48129",
+      "cattle": 120103,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-155",
+      "state": "TX",
+      "county": "Foard",
+      "fips": "48155",
+      "cattle": 40264,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-169",
+      "state": "TX",
+      "county": "Garza",
+      "fips": "48169",
+      "cattle": 20086,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-191",
+      "state": "TX",
+      "county": "Hall",
+      "fips": "48191",
+      "cattle": 43131,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-197",
+      "state": "TX",
+      "county": "Hardeman",
+      "fips": "48197",
+      "cattle": 44192,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-263",
+      "state": "TX",
+      "county": "Kent",
+      "fips": "48263",
+      "cattle": 29254,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-269",
+      "state": "TX",
+      "county": "King",
+      "fips": "48269",
+      "cattle": 43691,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-345",
+      "state": "TX",
+      "county": "Motley",
+      "fips": "48345",
+      "cattle": 37178,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-483",
+      "state": "TX",
+      "county": "Wheeler",
+      "fips": "48483",
+      "cattle": 120799,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-485",
+      "state": "TX",
+      "county": "Wichita",
+      "fips": "48485",
+      "cattle": 71475,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-487",
+      "state": "TX",
+      "county": "Wilbarger",
+      "fips": "48487",
+      "cattle": 74554,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-023",
+      "state": "TX",
+      "county": "Baylor",
+      "fips": "48023",
+      "cattle": 100569,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-083",
+      "state": "TX",
+      "county": "Coleman",
+      "fips": "48083",
+      "cattle": 85787,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-151",
+      "state": "TX",
+      "county": "Fisher",
+      "fips": "48151",
+      "cattle": 38749,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-207",
+      "state": "TX",
+      "county": "Haskell",
+      "fips": "48207",
+      "cattle": 46706,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-253",
+      "state": "TX",
+      "county": "Jones",
+      "fips": "48253",
+      "cattle": 68271,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-275",
+      "state": "TX",
+      "county": "Knox",
+      "fips": "48275",
+      "cattle": 48563,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-335",
+      "state": "TX",
+      "county": "Mitchell",
+      "fips": "48335",
+      "cattle": 41481,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-353",
+      "state": "TX",
+      "county": "Nolan",
+      "fips": "48353",
+      "cattle": 36965,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-399",
+      "state": "TX",
+      "county": "Runnels",
+      "fips": "48399",
+      "cattle": 76974,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-415",
+      "state": "TX",
+      "county": "Scurry",
+      "fips": "48415",
+      "cattle": 36554,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-433",
+      "state": "TX",
+      "county": "Stonewall",
+      "fips": "48433",
+      "cattle": 43915,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-441",
+      "state": "TX",
+      "county": "Taylor",
+      "fips": "48441",
+      "cattle": 54957,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-009",
+      "state": "TX",
+      "county": "Archer",
+      "fips": "48009",
+      "cattle": 154444,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-049",
+      "state": "TX",
+      "county": "Brown",
+      "fips": "48049",
+      "cattle": 82468,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-059",
+      "state": "TX",
+      "county": "Callahan",
+      "fips": "48059",
+      "cattle": 83909,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-077",
+      "state": "TX",
+      "county": "Clay",
+      "fips": "48077",
+      "cattle": 170997,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-093",
+      "state": "TX",
+      "county": "Comanche",
+      "fips": "48093",
+      "cattle": 237228,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-133",
+      "state": "TX",
+      "county": "Eastland",
+      "fips": "48133",
+      "cattle": 81964,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-143",
+      "state": "TX",
+      "county": "Erath",
+      "fips": "48143",
+      "cattle": 356459,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-221",
+      "state": "TX",
+      "county": "Hood",
+      "fips": "48221",
+      "cattle": 38273,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-237",
+      "state": "TX",
+      "county": "Jack",
+      "fips": "48237",
+      "cattle": 87400,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-333",
+      "state": "TX",
+      "county": "Mills",
+      "fips": "48333",
+      "cattle": 60902,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-337",
+      "state": "TX",
+      "county": "Montague",
+      "fips": "48337",
+      "cattle": 155289,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-363",
+      "state": "TX",
+      "county": "Palo Pinto",
+      "fips": "48363",
+      "cattle": 90857,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-367",
+      "state": "TX",
+      "county": "Parker",
+      "fips": "48367",
+      "cattle": 117486,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-417",
+      "state": "TX",
+      "county": "Shackelford",
+      "fips": "48417",
+      "cattle": 53795,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-425",
+      "state": "TX",
+      "county": "Somervell",
+      "fips": "48425",
+      "cattle": 14187,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-429",
+      "state": "TX",
+      "county": "Stephens",
+      "fips": "48429",
+      "cattle": 41780,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-447",
+      "state": "TX",
+      "county": "Throckmorton",
+      "fips": "48447",
+      "cattle": 86997,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-497",
+      "state": "TX",
+      "county": "Wise",
+      "fips": "48497",
+      "cattle": 135333,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-503",
+      "state": "TX",
+      "county": "Young",
+      "fips": "48503",
+      "cattle": 79700,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-027",
+      "state": "TX",
+      "county": "Bell",
+      "fips": "48027",
+      "cattle": 88483,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-035",
+      "state": "TX",
+      "county": "Bosque",
+      "fips": "48035",
+      "cattle": 99253,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-085",
+      "state": "TX",
+      "county": "Collin",
+      "fips": "48085",
+      "cattle": 76815,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-097",
+      "state": "TX",
+      "county": "Cooke",
+      "fips": "48097",
+      "cattle": 178296,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-099",
+      "state": "TX",
+      "county": "Coryell",
+      "fips": "48099",
+      "cattle": 118294,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-113",
+      "state": "TX",
+      "county": "Dallas",
+      "fips": "48113",
+      "cattle": 23333,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-119",
+      "state": "TX",
+      "county": "Delta",
+      "fips": "48119",
+      "cattle": 33406,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-121",
+      "state": "TX",
+      "county": "Denton",
+      "fips": "48121",
+      "cattle": 67204,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-139",
+      "state": "TX",
+      "county": "Ellis",
+      "fips": "48139",
+      "cattle": 98461,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-145",
+      "state": "TX",
+      "county": "Falls",
+      "fips": "48145",
+      "cattle": 244740,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-147",
+      "state": "TX",
+      "county": "Fannin",
+      "fips": "48147",
+      "cattle": 139752,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-181",
+      "state": "TX",
+      "county": "Grayson",
+      "fips": "48181",
+      "cattle": 94648,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-193",
+      "state": "TX",
+      "county": "Hamilton",
+      "fips": "48193",
+      "cattle": 131695,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-217",
+      "state": "TX",
+      "county": "Hill",
+      "fips": "48217",
+      "cattle": 112427,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-231",
+      "state": "TX",
+      "county": "Hunt",
+      "fips": "48231",
+      "cattle": 119253,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-251",
+      "state": "TX",
+      "county": "Johnson",
+      "fips": "48251",
+      "cattle": 103647,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-257",
+      "state": "TX",
+      "county": "Kaufman",
+      "fips": "48257",
+      "cattle": 137746,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-277",
+      "state": "TX",
+      "county": "Lamar",
+      "fips": "48277",
+      "cattle": 178004,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-293",
+      "state": "TX",
+      "county": "Limestone",
+      "fips": "48293",
+      "cattle": 155331,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-309",
+      "state": "TX",
+      "county": "Mclennan",
+      "fips": "48309",
+      "cattle": 173476,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-331",
+      "state": "TX",
+      "county": "Milam",
+      "fips": "48331",
+      "cattle": 180601,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-349",
+      "state": "TX",
+      "county": "Navarro",
+      "fips": "48349",
+      "cattle": 149651,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-397",
+      "state": "TX",
+      "county": "Rockwall",
+      "fips": "48397",
+      "cattle": 7819,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-439",
+      "state": "TX",
+      "county": "Tarrant",
+      "fips": "48439",
+      "cattle": 25181,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-491",
+      "state": "TX",
+      "county": "Williamson",
+      "fips": "48491",
+      "cattle": 124765,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-001",
+      "state": "TX",
+      "county": "Anderson",
+      "fips": "48001",
+      "cattle": 120772,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-037",
+      "state": "TX",
+      "county": "Bowie",
+      "fips": "48037",
+      "cattle": 123834,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-063",
+      "state": "TX",
+      "county": "Camp",
+      "fips": "48063",
+      "cattle": 43087,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-067",
+      "state": "TX",
+      "county": "Cass",
+      "fips": "48067",
+      "cattle": 44589,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-073",
+      "state": "TX",
+      "county": "Cherokee",
+      "fips": "48073",
+      "cattle": 114225,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-159",
+      "state": "TX",
+      "county": "Franklin",
+      "fips": "48159",
+      "cattle": 73432,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-183",
+      "state": "TX",
+      "county": "Gregg",
+      "fips": "48183",
+      "cattle": 11740,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-203",
+      "state": "TX",
+      "county": "Harrison",
+      "fips": "48203",
+      "cattle": 49767,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-213",
+      "state": "TX",
+      "county": "Henderson",
+      "fips": "48213",
+      "cattle": 122098,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-223",
+      "state": "TX",
+      "county": "Hopkins",
+      "fips": "48223",
+      "cattle": 235911,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-225",
+      "state": "TX",
+      "county": "Houston",
+      "fips": "48225",
+      "cattle": 178126,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-315",
+      "state": "TX",
+      "county": "Marion",
+      "fips": "48315",
+      "cattle": 9099,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-343",
+      "state": "TX",
+      "county": "Morris",
+      "fips": "48343",
+      "cattle": 25084,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-347",
+      "state": "TX",
+      "county": "Nacogdoches",
+      "fips": "48347",
+      "cattle": 71558,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-365",
+      "state": "TX",
+      "county": "Panola",
+      "fips": "48365",
+      "cattle": 59130,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-379",
+      "state": "TX",
+      "county": "Rains",
+      "fips": "48379",
+      "cattle": 43084,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-387",
+      "state": "TX",
+      "county": "Red River",
+      "fips": "48387",
+      "cattle": 170680,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-401",
+      "state": "TX",
+      "county": "Rusk",
+      "fips": "48401",
+      "cattle": 81965,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-419",
+      "state": "TX",
+      "county": "Shelby",
+      "fips": "48419",
+      "cattle": 87650,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-423",
+      "state": "TX",
+      "county": "Smith",
+      "fips": "48423",
+      "cattle": 88497,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-449",
+      "state": "TX",
+      "county": "Titus",
+      "fips": "48449",
+      "cattle": 56565,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-459",
+      "state": "TX",
+      "county": "Upshur",
+      "fips": "48459",
+      "cattle": 94452,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-467",
+      "state": "TX",
+      "county": "Van Zandt",
+      "fips": "48467",
+      "cattle": 184140,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-499",
+      "state": "TX",
+      "county": "Wood",
+      "fips": "48499",
+      "cattle": 83019,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-005",
+      "state": "TX",
+      "county": "Angelina",
+      "fips": "48005",
+      "cattle": 31278,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-041",
+      "state": "TX",
+      "county": "Brazos",
+      "fips": "48041",
+      "cattle": 115794,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-161",
+      "state": "TX",
+      "county": "Freestone",
+      "fips": "48161",
+      "cattle": 132639,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-185",
+      "state": "TX",
+      "county": "Grimes",
+      "fips": "48185",
+      "cattle": 162709,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-199",
+      "state": "TX",
+      "county": "Hardin",
+      "fips": "48199",
+      "cattle": 13748,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-241",
+      "state": "TX",
+      "county": "Jasper",
+      "fips": "48241",
+      "cattle": 25124,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-289",
+      "state": "TX",
+      "county": "Leon",
+      "fips": "48289",
+      "cattle": 185738,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-313",
+      "state": "TX",
+      "county": "Madison",
+      "fips": "48313",
+      "cattle": 85479,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-339",
+      "state": "TX",
+      "county": "Montgomery",
+      "fips": "48339",
+      "cattle": 35879,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-351",
+      "state": "TX",
+      "county": "Newton",
+      "fips": "48351",
+      "cattle": 8150,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-373",
+      "state": "TX",
+      "county": "Polk",
+      "fips": "48373",
+      "cattle": 22150,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-395",
+      "state": "TX",
+      "county": "Robertson",
+      "fips": "48395",
+      "cattle": 191180,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-403",
+      "state": "TX",
+      "county": "Sabine",
+      "fips": "48403",
+      "cattle": 16231,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-405",
+      "state": "TX",
+      "county": "San Augustine",
+      "fips": "48405",
+      "cattle": 16827,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-407",
+      "state": "TX",
+      "county": "San Jacinto",
+      "fips": "48407",
+      "cattle": 26861,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-455",
+      "state": "TX",
+      "county": "Trinity",
+      "fips": "48455",
+      "cattle": 33774,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-457",
+      "state": "TX",
+      "county": "Tyler",
+      "fips": "48457",
+      "cattle": 22966,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-471",
+      "state": "TX",
+      "county": "Walker",
+      "fips": "48471",
+      "cattle": 72919,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-473",
+      "state": "TX",
+      "county": "Waller",
+      "fips": "48473",
+      "cattle": 89576,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-043",
+      "state": "TX",
+      "county": "Brewster",
+      "fips": "48043",
+      "cattle": 51391,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-103",
+      "state": "TX",
+      "county": "Crane",
+      "fips": "48103",
+      "cattle": 6956,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-109",
+      "state": "TX",
+      "county": "Culberson",
+      "fips": "48109",
+      "cattle": 41107,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-135",
+      "state": "TX",
+      "county": "Ector",
+      "fips": "48135",
+      "cattle": 12676,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-141",
+      "state": "TX",
+      "county": "El Paso",
+      "fips": "48141",
+      "cattle": 10863,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-229",
+      "state": "TX",
+      "county": "Hudspeth",
+      "fips": "48229",
+      "cattle": 28635,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-243",
+      "state": "TX",
+      "county": "Jeff Davis",
+      "fips": "48243",
+      "cattle": 60011,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-301",
+      "state": "TX",
+      "county": "Loving",
+      "fips": "48301",
+      "cattle": 5386,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-371",
+      "state": "TX",
+      "county": "Pecos",
+      "fips": "48371",
+      "cattle": 55933,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-377",
+      "state": "TX",
+      "county": "Presidio",
+      "fips": "48377",
+      "cattle": 61956,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-389",
+      "state": "TX",
+      "county": "Reeves",
+      "fips": "48389",
+      "cattle": 23915,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-443",
+      "state": "TX",
+      "county": "Terrell",
+      "fips": "48443",
+      "cattle": 10168,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-475",
+      "state": "TX",
+      "county": "Ward",
+      "fips": "48475",
+      "cattle": 8903,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-495",
+      "state": "TX",
+      "county": "Winkler",
+      "fips": "48495",
+      "cattle": 11765,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-019",
+      "state": "TX",
+      "county": "Bandera",
+      "fips": "48019",
+      "cattle": 14500,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-031",
+      "state": "TX",
+      "county": "Blanco",
+      "fips": "48031",
+      "cattle": 34756,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-053",
+      "state": "TX",
+      "county": "Burnet",
+      "fips": "48053",
+      "cattle": 51265,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-081",
+      "state": "TX",
+      "county": "Coke",
+      "fips": "48081",
+      "cattle": 24061,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-095",
+      "state": "TX",
+      "county": "Concho",
+      "fips": "48095",
+      "cattle": 46422,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-105",
+      "state": "TX",
+      "county": "Crockett",
+      "fips": "48105",
+      "cattle": 41671,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-137",
+      "state": "TX",
+      "county": "Edwards",
+      "fips": "48137",
+      "cattle": 27499,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-171",
+      "state": "TX",
+      "county": "Gillespie",
+      "fips": "48171",
+      "cattle": 78872,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-235",
+      "state": "TX",
+      "county": "Irion",
+      "fips": "48235",
+      "cattle": 23843,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-259",
+      "state": "TX",
+      "county": "Kendall",
+      "fips": "48259",
+      "cattle": 29815,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-265",
+      "state": "TX",
+      "county": "Kerr",
+      "fips": "48265",
+      "cattle": 20149,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-267",
+      "state": "TX",
+      "county": "Kimble",
+      "fips": "48267",
+      "cattle": 23368,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-271",
+      "state": "TX",
+      "county": "Kinney",
+      "fips": "48271",
+      "cattle": 19053,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-281",
+      "state": "TX",
+      "county": "Lampasas",
+      "fips": "48281",
+      "cattle": 55057,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-299",
+      "state": "TX",
+      "county": "Llano",
+      "fips": "48299",
+      "cattle": 71847,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-307",
+      "state": "TX",
+      "county": "Mcculloch",
+      "fips": "48307",
+      "cattle": 49035,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-319",
+      "state": "TX",
+      "county": "Mason",
+      "fips": "48319",
+      "cattle": 72501,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-327",
+      "state": "TX",
+      "county": "Menard",
+      "fips": "48327",
+      "cattle": 32057,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-383",
+      "state": "TX",
+      "county": "Reagan",
+      "fips": "48383",
+      "cattle": 32727,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-385",
+      "state": "TX",
+      "county": "Real",
+      "fips": "48385",
+      "cattle": 6080,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-411",
+      "state": "TX",
+      "county": "San Saba",
+      "fips": "48411",
+      "cattle": 96951,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-413",
+      "state": "TX",
+      "county": "Schleicher",
+      "fips": "48413",
+      "cattle": 36608,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-431",
+      "state": "TX",
+      "county": "Sterling",
+      "fips": "48431",
+      "cattle": 24451,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-435",
+      "state": "TX",
+      "county": "Sutton",
+      "fips": "48435",
+      "cattle": 25742,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-451",
+      "state": "TX",
+      "county": "Tom Green",
+      "fips": "48451",
+      "cattle": 70595,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-461",
+      "state": "TX",
+      "county": "Upton",
+      "fips": "48461",
+      "cattle": 8660,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-463",
+      "state": "TX",
+      "county": "Uvalde",
+      "fips": "48463",
+      "cattle": 81331,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-465",
+      "state": "TX",
+      "county": "Val Verde",
+      "fips": "48465",
+      "cattle": 20837,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-015",
+      "state": "TX",
+      "county": "Austin",
+      "fips": "48015",
+      "cattle": 125617,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-021",
+      "state": "TX",
+      "county": "Bastrop",
+      "fips": "48021",
+      "cattle": 123801,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-025",
+      "state": "TX",
+      "county": "Bee",
+      "fips": "48025",
+      "cattle": 61262,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-029",
+      "state": "TX",
+      "county": "Bexar",
+      "fips": "48029",
+      "cattle": 73202,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-051",
+      "state": "TX",
+      "county": "Burleson",
+      "fips": "48051",
+      "cattle": 118788,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-055",
+      "state": "TX",
+      "county": "Caldwell",
+      "fips": "48055",
+      "cattle": 76322,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-089",
+      "state": "TX",
+      "county": "Colorado",
+      "fips": "48089",
+      "cattle": 128206,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-091",
+      "state": "TX",
+      "county": "Comal",
+      "fips": "48091",
+      "cattle": 23411,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-123",
+      "state": "TX",
+      "county": "De Witt",
+      "fips": "48123",
+      "cattle": 159343,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-149",
+      "state": "TX",
+      "county": "Fayette",
+      "fips": "48149",
+      "cattle": 196412,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-175",
+      "state": "TX",
+      "county": "Goliad",
+      "fips": "48175",
+      "cattle": 85083,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-177",
+      "state": "TX",
+      "county": "Gonzales",
+      "fips": "48177",
+      "cattle": 268254,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-187",
+      "state": "TX",
+      "county": "Guadalupe",
+      "fips": "48187",
+      "cattle": 93526,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-209",
+      "state": "TX",
+      "county": "Hays",
+      "fips": "48209",
+      "cattle": 23610,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-255",
+      "state": "TX",
+      "county": "Karnes",
+      "fips": "48255",
+      "cattle": 101100,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-285",
+      "state": "TX",
+      "county": "Lavaca",
+      "fips": "48285",
+      "cattle": 211235,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-287",
+      "state": "TX",
+      "county": "Lee",
+      "fips": "48287",
+      "cattle": 168280,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-325",
+      "state": "TX",
+      "county": "Medina",
+      "fips": "48325",
+      "cattle": 95161,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-453",
+      "state": "TX",
+      "county": "Travis",
+      "fips": "48453",
+      "cattle": 42631,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-477",
+      "state": "TX",
+      "county": "Washington",
+      "fips": "48477",
+      "cattle": 125182,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-493",
+      "state": "TX",
+      "county": "Wilson",
+      "fips": "48493",
+      "cattle": 198390,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-007",
+      "state": "TX",
+      "county": "Aransas",
+      "fips": "48007",
+      "cattle": 4899,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "tx-273",
+      "state": "TX",
+      "county": "Kleberg",
+      "fips": "48273",
+      "cattle": 53092,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-355",
+      "state": "TX",
+      "county": "Nueces",
+      "fips": "48355",
+      "cattle": 17483,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-391",
+      "state": "TX",
+      "county": "Refugio",
+      "fips": "48391",
+      "cattle": 51249,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-409",
+      "state": "TX",
+      "county": "San Patricio",
+      "fips": "48409",
+      "cattle": 28162,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-039",
+      "state": "TX",
+      "county": "Brazoria",
+      "fips": "48039",
+      "cattle": 128766,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-057",
+      "state": "TX",
+      "county": "Calhoun",
+      "fips": "48057",
+      "cattle": 28137,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-071",
+      "state": "TX",
+      "county": "Chambers",
+      "fips": "48071",
+      "cattle": 50562,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-157",
+      "state": "TX",
+      "county": "Fort Bend",
+      "fips": "48157",
+      "cattle": 65343,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-167",
+      "state": "TX",
+      "county": "Galveston",
+      "fips": "48167",
+      "cattle": 16160,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-201",
+      "state": "TX",
+      "county": "Harris",
+      "fips": "48201",
+      "cattle": 42651,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-239",
+      "state": "TX",
+      "county": "Jackson",
+      "fips": "48239",
+      "cattle": 84620,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-245",
+      "state": "TX",
+      "county": "Jefferson",
+      "fips": "48245",
+      "cattle": 71991,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-291",
+      "state": "TX",
+      "county": "Liberty",
+      "fips": "48291",
+      "cattle": 89968,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-321",
+      "state": "TX",
+      "county": "Matagorda",
+      "fips": "48321",
+      "cattle": 106774,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-361",
+      "state": "TX",
+      "county": "Orange",
+      "fips": "48361",
+      "cattle": 17463,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-469",
+      "state": "TX",
+      "county": "Victoria",
+      "fips": "48469",
+      "cattle": 108174,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-481",
+      "state": "TX",
+      "county": "Wharton",
+      "fips": "48481",
+      "cattle": 113612,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-013",
+      "state": "TX",
+      "county": "Atascosa",
+      "fips": "48013",
+      "cattle": 142442,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-047",
+      "state": "TX",
+      "county": "Brooks",
+      "fips": "48047",
+      "cattle": 45494,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-127",
+      "state": "TX",
+      "county": "Dimmit",
+      "fips": "48127",
+      "cattle": 30447,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-131",
+      "state": "TX",
+      "county": "Duval",
+      "fips": "48131",
+      "cattle": 64716,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-163",
+      "state": "TX",
+      "county": "Frio",
+      "fips": "48163",
+      "cattle": 107999,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "tx-247",
+      "state": "TX",
+      "county": "Jim Hogg",
+      "fips": "48247",
+      "cattle": 43877,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-249",
+      "state": "TX",
+      "county": "Jim Wells",
+      "fips": "48249",
+      "cattle": 64674,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-261",
+      "state": "TX",
+      "county": "Kenedy",
+      "fips": "48261",
+      "cattle": 76360,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-283",
+      "state": "TX",
+      "county": "La Salle",
+      "fips": "48283",
+      "cattle": 23809,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-297",
+      "state": "TX",
+      "county": "Live Oak",
+      "fips": "48297",
+      "cattle": 64197,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-311",
+      "state": "TX",
+      "county": "Mcmullen",
+      "fips": "48311",
+      "cattle": 28932,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-323",
+      "state": "TX",
+      "county": "Maverick",
+      "fips": "48323",
+      "cattle": 45555,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-479",
+      "state": "TX",
+      "county": "Webb",
+      "fips": "48479",
+      "cattle": 93107,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-505",
+      "state": "TX",
+      "county": "Zapata",
+      "fips": "48505",
+      "cattle": 29745,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-507",
+      "state": "TX",
+      "county": "Zavala",
+      "fips": "48507",
+      "cattle": 89198,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-061",
+      "state": "TX",
+      "county": "Cameron",
+      "fips": "48061",
+      "cattle": 23145,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "tx-215",
+      "state": "TX",
+      "county": "Hidalgo",
+      "fips": "48215",
+      "cattle": 63518,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-427",
+      "state": "TX",
+      "county": "Starr",
+      "fips": "48427",
+      "cattle": 96623,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "tx-489",
+      "state": "TX",
+      "county": "Willacy",
+      "fips": "48489",
+      "cattle": 24709,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "az-001",
+      "state": "AZ",
+      "county": "Apache",
+      "fips": "04001",
+      "cattle": 74055,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "az-005",
+      "state": "AZ",
+      "county": "Coconino",
+      "fips": "04005",
+      "cattle": 87499,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "az-007",
+      "state": "AZ",
+      "county": "Gila",
+      "fips": "04007",
+      "cattle": 29270,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "az-015",
+      "state": "AZ",
+      "county": "Mohave",
+      "fips": "04015",
+      "cattle": 40503,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "az-017",
+      "state": "AZ",
+      "county": "Navajo",
+      "fips": "04017",
+      "cattle": 48863,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "az-025",
+      "state": "AZ",
+      "county": "Yavapai",
+      "fips": "04025",
+      "cattle": 81229,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "az-003",
+      "state": "AZ",
+      "county": "Cochise",
+      "fips": "04003",
+      "cattle": 287200,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "az-009",
+      "state": "AZ",
+      "county": "Graham",
+      "fips": "04009",
+      "cattle": 28301,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "az-011",
+      "state": "AZ",
+      "county": "Greenlee",
+      "fips": "04011",
+      "cattle": 11675,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "az-013",
+      "state": "AZ",
+      "county": "Maricopa",
+      "fips": "04013",
+      "cattle": 416891,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "az-019",
+      "state": "AZ",
+      "county": "Pima",
+      "fips": "04019",
+      "cattle": 34314,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "az-021",
+      "state": "AZ",
+      "county": "Pinal",
+      "fips": "04021",
+      "cattle": 558261,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "az-023",
+      "state": "AZ",
+      "county": "Santa Cruz",
+      "fips": "04023",
+      "cattle": 26309,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "az-998",
+      "state": "AZ",
+      "county": "Other Counties",
+      "fips": "04998",
+      "cattle": 118700,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "nm-001",
+      "state": "NM",
+      "county": "Bernalillo",
+      "fips": "35001",
+      "cattle": 3672,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "nm-006",
+      "state": "NM",
+      "county": "Cibola",
+      "fips": "35006",
+      "cattle": 28656,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-031",
+      "state": "NM",
+      "county": "Mckinley",
+      "fips": "35031",
+      "cattle": 35743,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-039",
+      "state": "NM",
+      "county": "Rio Arriba",
+      "fips": "35039",
+      "cattle": 32843,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-043",
+      "state": "NM",
+      "county": "Sandoval",
+      "fips": "35043",
+      "cattle": 23678,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-045",
+      "state": "NM",
+      "county": "San Juan",
+      "fips": "35045",
+      "cattle": 29534,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-049",
+      "state": "NM",
+      "county": "Santa Fe",
+      "fips": "35049",
+      "cattle": 21311,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-061",
+      "state": "NM",
+      "county": "Valencia",
+      "fips": "35061",
+      "cattle": 37228,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-007",
+      "state": "NM",
+      "county": "Colfax",
+      "fips": "35007",
+      "cattle": 64316,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-009",
+      "state": "NM",
+      "county": "Curry",
+      "fips": "35009",
+      "cattle": 488083,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "nm-011",
+      "state": "NM",
+      "county": "De Baca",
+      "fips": "35011",
+      "cattle": 50719,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-019",
+      "state": "NM",
+      "county": "Guadalupe",
+      "fips": "35019",
+      "cattle": 42575,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-021",
+      "state": "NM",
+      "county": "Harding",
+      "fips": "35021",
+      "cattle": 43092,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-033",
+      "state": "NM",
+      "county": "Mora",
+      "fips": "35033",
+      "cattle": 29747,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-037",
+      "state": "NM",
+      "county": "Quay",
+      "fips": "35037",
+      "cattle": 77264,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-041",
+      "state": "NM",
+      "county": "Roosevelt",
+      "fips": "35041",
+      "cattle": 286761,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "nm-047",
+      "state": "NM",
+      "county": "San Miguel",
+      "fips": "35047",
+      "cattle": 72641,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-057",
+      "state": "NM",
+      "county": "Torrance",
+      "fips": "35057",
+      "cattle": 66755,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-059",
+      "state": "NM",
+      "county": "Union",
+      "fips": "35059",
+      "cattle": 130012,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "nm-003",
+      "state": "NM",
+      "county": "Catron",
+      "fips": "35003",
+      "cattle": 55750,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-017",
+      "state": "NM",
+      "county": "Grant",
+      "fips": "35017",
+      "cattle": 51976,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-023",
+      "state": "NM",
+      "county": "Hidalgo",
+      "fips": "35023",
+      "cattle": 38835,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-029",
+      "state": "NM",
+      "county": "Luna",
+      "fips": "35029",
+      "cattle": 61089,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-051",
+      "state": "NM",
+      "county": "Sierra",
+      "fips": "35051",
+      "cattle": 32365,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-053",
+      "state": "NM",
+      "county": "Socorro",
+      "fips": "35053",
+      "cattle": 72828,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-005",
+      "state": "NM",
+      "county": "Chaves",
+      "fips": "35005",
+      "cattle": 314617,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "nm-013",
+      "state": "NM",
+      "county": "Dona Ana",
+      "fips": "35013",
+      "cattle": 100400,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "nm-015",
+      "state": "NM",
+      "county": "Eddy",
+      "fips": "35015",
+      "cattle": 68286,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-025",
+      "state": "NM",
+      "county": "Lea",
+      "fips": "35025",
+      "cattle": 185315,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "nm-027",
+      "state": "NM",
+      "county": "Lincoln",
+      "fips": "35027",
+      "cattle": 58556,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "nm-035",
+      "state": "NM",
+      "county": "Otero",
+      "fips": "35035",
+      "cattle": 34308,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "nm-055",
+      "state": "NM",
+      "county": "Taos",
+      "fips": "35055",
+      "cattle": 4500,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "nm-998",
+      "state": "NM",
+      "county": "Other Counties",
+      "fips": "35998",
+      "cattle": 2800,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "ca-015",
+      "state": "CA",
+      "county": "Del Norte",
+      "fips": "06015",
+      "cattle": 16847,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-023",
+      "state": "CA",
+      "county": "Humboldt",
+      "fips": "06023",
+      "cattle": 131575,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-045",
+      "state": "CA",
+      "county": "Mendocino",
+      "fips": "06045",
+      "cattle": 40870,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-089",
+      "state": "CA",
+      "county": "Shasta",
+      "fips": "06089",
+      "cattle": 54975,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-093",
+      "state": "CA",
+      "county": "Siskiyou",
+      "fips": "06093",
+      "cattle": 97198,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-105",
+      "state": "CA",
+      "county": "Trinity",
+      "fips": "06105",
+      "cattle": 6591,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "ca-035",
+      "state": "CA",
+      "county": "Lassen",
+      "fips": "06035",
+      "cattle": 83348,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-049",
+      "state": "CA",
+      "county": "Modoc",
+      "fips": "06049",
+      "cattle": 115498,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-063",
+      "state": "CA",
+      "county": "Plumas",
+      "fips": "06063",
+      "cattle": 24535,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-001",
+      "state": "CA",
+      "county": "Alameda",
+      "fips": "06001",
+      "cattle": 31421,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-013",
+      "state": "CA",
+      "county": "Contra Costa",
+      "fips": "06013",
+      "cattle": 58568,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-033",
+      "state": "CA",
+      "county": "Lake",
+      "fips": "06033",
+      "cattle": 6588,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "ca-041",
+      "state": "CA",
+      "county": "Marin",
+      "fips": "06041",
+      "cattle": 59453,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-053",
+      "state": "CA",
+      "county": "Monterey",
+      "fips": "06053",
+      "cattle": 97920,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-055",
+      "state": "CA",
+      "county": "Napa",
+      "fips": "06055",
+      "cattle": 19889,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-069",
+      "state": "CA",
+      "county": "San Benito",
+      "fips": "06069",
+      "cattle": 51449,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-079",
+      "state": "CA",
+      "county": "San Luis Obispo",
+      "fips": "06079",
+      "cattle": 80139,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-081",
+      "state": "CA",
+      "county": "San Mateo",
+      "fips": "06081",
+      "cattle": 4965,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "ca-085",
+      "state": "CA",
+      "county": "Santa Clara",
+      "fips": "06085",
+      "cattle": 31590,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-087",
+      "state": "CA",
+      "county": "Santa Cruz",
+      "fips": "06087",
+      "cattle": 4019,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "ca-097",
+      "state": "CA",
+      "county": "Sonoma",
+      "fips": "06097",
+      "cattle": 141370,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-007",
+      "state": "CA",
+      "county": "Butte",
+      "fips": "06007",
+      "cattle": 34227,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-011",
+      "state": "CA",
+      "county": "Colusa",
+      "fips": "06011",
+      "cattle": 40009,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-021",
+      "state": "CA",
+      "county": "Glenn",
+      "fips": "06021",
+      "cattle": 115325,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-067",
+      "state": "CA",
+      "county": "Sacramento",
+      "fips": "06067",
+      "cattle": 92760,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-095",
+      "state": "CA",
+      "county": "Solano",
+      "fips": "06095",
+      "cattle": 89792,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-101",
+      "state": "CA",
+      "county": "Sutter",
+      "fips": "06101",
+      "cattle": 10510,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-103",
+      "state": "CA",
+      "county": "Tehama",
+      "fips": "06103",
+      "cattle": 106071,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-113",
+      "state": "CA",
+      "county": "Yolo",
+      "fips": "06113",
+      "cattle": 67395,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-115",
+      "state": "CA",
+      "county": "Yuba",
+      "fips": "06115",
+      "cattle": 30251,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-019",
+      "state": "CA",
+      "county": "Fresno",
+      "fips": "06019",
+      "cattle": 842508,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-029",
+      "state": "CA",
+      "county": "Kern",
+      "fips": "06029",
+      "cattle": 671215,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-031",
+      "state": "CA",
+      "county": "Kings",
+      "fips": "06031",
+      "cattle": 649887,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-039",
+      "state": "CA",
+      "county": "Madera",
+      "fips": "06039",
+      "cattle": 360378,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-047",
+      "state": "CA",
+      "county": "Merced",
+      "fips": "06047",
+      "cattle": 1168108,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-077",
+      "state": "CA",
+      "county": "San Joaquin",
+      "fips": "06077",
+      "cattle": 525344,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-099",
+      "state": "CA",
+      "county": "Stanislaus",
+      "fips": "06099",
+      "cattle": 836835,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-107",
+      "state": "CA",
+      "county": "Tulare",
+      "fips": "06107",
+      "cattle": 2140665,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-005",
+      "state": "CA",
+      "county": "Amador",
+      "fips": "06005",
+      "cattle": 28190,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-009",
+      "state": "CA",
+      "county": "Calaveras",
+      "fips": "06009",
+      "cattle": 47389,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-017",
+      "state": "CA",
+      "county": "El Dorado",
+      "fips": "06017",
+      "cattle": 13797,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-027",
+      "state": "CA",
+      "county": "Inyo",
+      "fips": "06027",
+      "cattle": 24274,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-043",
+      "state": "CA",
+      "county": "Mariposa",
+      "fips": "06043",
+      "cattle": 70788,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-051",
+      "state": "CA",
+      "county": "Mono",
+      "fips": "06051",
+      "cattle": 11631,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-057",
+      "state": "CA",
+      "county": "Nevada",
+      "fips": "06057",
+      "cattle": 8961,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "ca-061",
+      "state": "CA",
+      "county": "Placer",
+      "fips": "06061",
+      "cattle": 28964,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-091",
+      "state": "CA",
+      "county": "Sierra",
+      "fips": "06091",
+      "cattle": 12104,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-109",
+      "state": "CA",
+      "county": "Tuolumne",
+      "fips": "06109",
+      "cattle": 25042,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-025",
+      "state": "CA",
+      "county": "Imperial",
+      "fips": "06025",
+      "cattle": 827212,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-037",
+      "state": "CA",
+      "county": "Los Angeles",
+      "fips": "06037",
+      "cattle": 13364,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-065",
+      "state": "CA",
+      "county": "Riverside",
+      "fips": "06065",
+      "cattle": 92955,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-071",
+      "state": "CA",
+      "county": "San Bernardino",
+      "fips": "06071",
+      "cattle": 204021,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "ca-073",
+      "state": "CA",
+      "county": "San Diego",
+      "fips": "06073",
+      "cattle": 27956,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "ca-083",
+      "state": "CA",
+      "county": "Santa Barbara",
+      "fips": "06083",
+      "cattle": 51489,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "ca-111",
+      "state": "CA",
+      "county": "Ventura",
+      "fips": "06111",
+      "cattle": 9553,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "ca-059",
+      "state": "CA",
+      "county": "Orange",
+      "fips": "06059",
+      "cattle": 100,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "ca-998",
+      "state": "CA",
+      "county": "Other Counties",
+      "fips": "06998",
+      "cattle": 300,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-005",
+      "state": "FL",
+      "county": "Bay",
+      "fips": "12005",
+      "cattle": 1935,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-013",
+      "state": "FL",
+      "county": "Calhoun",
+      "fips": "12013",
+      "cattle": 6424,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-033",
+      "state": "FL",
+      "county": "Escambia",
+      "fips": "12033",
+      "cattle": 14475,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-037",
+      "state": "FL",
+      "county": "Franklin",
+      "fips": "12037",
+      "cattle": 327,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-039",
+      "state": "FL",
+      "county": "Gadsden",
+      "fips": "12039",
+      "cattle": 8563,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-045",
+      "state": "FL",
+      "county": "Gulf",
+      "fips": "12045",
+      "cattle": 1690,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-059",
+      "state": "FL",
+      "county": "Holmes",
+      "fips": "12059",
+      "cattle": 32901,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-063",
+      "state": "FL",
+      "county": "Jackson",
+      "fips": "12063",
+      "cattle": 71778,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-065",
+      "state": "FL",
+      "county": "Jefferson",
+      "fips": "12065",
+      "cattle": 45564,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-073",
+      "state": "FL",
+      "county": "Leon",
+      "fips": "12073",
+      "cattle": 4436,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-077",
+      "state": "FL",
+      "county": "Liberty",
+      "fips": "12077",
+      "cattle": 2520,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-091",
+      "state": "FL",
+      "county": "Okaloosa",
+      "fips": "12091",
+      "cattle": 8541,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-113",
+      "state": "FL",
+      "county": "Santa Rosa",
+      "fips": "12113",
+      "cattle": 12055,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-129",
+      "state": "FL",
+      "county": "Wakulla",
+      "fips": "12129",
+      "cattle": 2618,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-131",
+      "state": "FL",
+      "county": "Walton",
+      "fips": "12131",
+      "cattle": 26000,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-133",
+      "state": "FL",
+      "county": "Washington",
+      "fips": "12133",
+      "cattle": 17312,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-003",
+      "state": "FL",
+      "county": "Baker",
+      "fips": "12003",
+      "cattle": 9184,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-023",
+      "state": "FL",
+      "county": "Columbia",
+      "fips": "12023",
+      "cattle": 57392,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-029",
+      "state": "FL",
+      "county": "Dixie",
+      "fips": "12029",
+      "cattle": 7841,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-031",
+      "state": "FL",
+      "county": "Duval",
+      "fips": "12031",
+      "cattle": 8704,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-047",
+      "state": "FL",
+      "county": "Hamilton",
+      "fips": "12047",
+      "cattle": 15878,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-067",
+      "state": "FL",
+      "county": "Lafayette",
+      "fips": "12067",
+      "cattle": 38387,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-079",
+      "state": "FL",
+      "county": "Madison",
+      "fips": "12079",
+      "cattle": 53980,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-089",
+      "state": "FL",
+      "county": "Nassau",
+      "fips": "12089",
+      "cattle": 11036,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-121",
+      "state": "FL",
+      "county": "Suwannee",
+      "fips": "12121",
+      "cattle": 79145,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-123",
+      "state": "FL",
+      "county": "Taylor",
+      "fips": "12123",
+      "cattle": 8606,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-001",
+      "state": "FL",
+      "county": "Alachua",
+      "fips": "12001",
+      "cattle": 84902,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-007",
+      "state": "FL",
+      "county": "Bradford",
+      "fips": "12007",
+      "cattle": 17006,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-017",
+      "state": "FL",
+      "county": "Citrus",
+      "fips": "12017",
+      "cattle": 18661,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-019",
+      "state": "FL",
+      "county": "Clay",
+      "fips": "12019",
+      "cattle": 12764,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-035",
+      "state": "FL",
+      "county": "Flagler",
+      "fips": "12035",
+      "cattle": 10517,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-041",
+      "state": "FL",
+      "county": "Gilchrist",
+      "fips": "12041",
+      "cattle": 65733,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-053",
+      "state": "FL",
+      "county": "Hernando",
+      "fips": "12053",
+      "cattle": 24372,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-057",
+      "state": "FL",
+      "county": "Hillsborough",
+      "fips": "12057",
+      "cattle": 71943,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-069",
+      "state": "FL",
+      "county": "Lake",
+      "fips": "12069",
+      "cattle": 53550,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-075",
+      "state": "FL",
+      "county": "Levy",
+      "fips": "12075",
+      "cattle": 75261,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-083",
+      "state": "FL",
+      "county": "Marion",
+      "fips": "12083",
+      "cattle": 92796,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-095",
+      "state": "FL",
+      "county": "Orange",
+      "fips": "12095",
+      "cattle": 31082,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-097",
+      "state": "FL",
+      "county": "Osceola",
+      "fips": "12097",
+      "cattle": 193418,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "fl-101",
+      "state": "FL",
+      "county": "Pasco",
+      "fips": "12101",
+      "cattle": 69635,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-105",
+      "state": "FL",
+      "county": "Polk",
+      "fips": "12105",
+      "cattle": 198225,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "fl-107",
+      "state": "FL",
+      "county": "Putnam",
+      "fips": "12107",
+      "cattle": 24637,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-109",
+      "state": "FL",
+      "county": "St. Johns",
+      "fips": "12109",
+      "cattle": 3801,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-117",
+      "state": "FL",
+      "county": "Seminole",
+      "fips": "12117",
+      "cattle": 7943,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-119",
+      "state": "FL",
+      "county": "Sumter",
+      "fips": "12119",
+      "cattle": 77985,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-125",
+      "state": "FL",
+      "county": "Union",
+      "fips": "12125",
+      "cattle": 20238,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-127",
+      "state": "FL",
+      "county": "Volusia",
+      "fips": "12127",
+      "cattle": 24265,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-009",
+      "state": "FL",
+      "county": "Brevard",
+      "fips": "12009",
+      "cattle": 44448,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-015",
+      "state": "FL",
+      "county": "Charlotte",
+      "fips": "12015",
+      "cattle": 36609,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-021",
+      "state": "FL",
+      "county": "Collier",
+      "fips": "12021",
+      "cattle": 20033,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-027",
+      "state": "FL",
+      "county": "De Soto",
+      "fips": "12027",
+      "cattle": 125480,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "fl-043",
+      "state": "FL",
+      "county": "Glades",
+      "fips": "12043",
+      "cattle": 129634,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "fl-049",
+      "state": "FL",
+      "county": "Hardee",
+      "fips": "12049",
+      "cattle": 139991,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "fl-051",
+      "state": "FL",
+      "county": "Hendry",
+      "fips": "12051",
+      "cattle": 121720,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "fl-055",
+      "state": "FL",
+      "county": "Highlands",
+      "fips": "12055",
+      "cattle": 189469,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "fl-061",
+      "state": "FL",
+      "county": "Indian River",
+      "fips": "12061",
+      "cattle": 43734,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-071",
+      "state": "FL",
+      "county": "Lee",
+      "fips": "12071",
+      "cattle": 20746,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-081",
+      "state": "FL",
+      "county": "Manatee",
+      "fips": "12081",
+      "cattle": 78473,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-085",
+      "state": "FL",
+      "county": "Martin",
+      "fips": "12085",
+      "cattle": 62376,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-086",
+      "state": "FL",
+      "county": "Miami-Dade",
+      "fips": "12086",
+      "cattle": 11968,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-093",
+      "state": "FL",
+      "county": "Okeechobee",
+      "fips": "12093",
+      "cattle": 322001,
+      "lat": 0,
+      "lng": 0,
+      "density": "very-high"
+    },
+    {
+      "id": "fl-099",
+      "state": "FL",
+      "county": "Palm Beach",
+      "fips": "12099",
+      "cattle": 21645,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-111",
+      "state": "FL",
+      "county": "St. Lucie",
+      "fips": "12111",
+      "cattle": 70357,
+      "lat": 0,
+      "lng": 0,
+      "density": "high"
+    },
+    {
+      "id": "fl-115",
+      "state": "FL",
+      "county": "Sarasota",
+      "fips": "12115",
+      "cattle": 29361,
+      "lat": 0,
+      "lng": 0,
+      "density": "medium"
+    },
+    {
+      "id": "fl-011",
+      "state": "FL",
+      "county": "Broward",
+      "fips": "12011",
+      "cattle": 2700,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    },
+    {
+      "id": "fl-998",
+      "state": "FL",
+      "county": "Other Counties",
+      "fips": "12998",
+      "cattle": 300,
+      "lat": 0,
+      "lng": 0,
+      "density": "low"
+    }
   ]
 }

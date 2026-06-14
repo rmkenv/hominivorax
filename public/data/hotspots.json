@@ -1,22 +1,131 @@
 {
-  "_note": "This file is overwritten nightly by the GitHub Actions ETL pipeline.",
   "metadata": {
-    "lastUpdated": "2024-06-08T02:00:00Z",
-    "dataSource": "USDA APHIS - Screwworm Eradication Program",
-    "jurisdiction": "United States + Mexico Border Region"
+    "lastUpdated": "2026-06-14T17:01:48.008431+00:00",
+    "dataSource": "USDA APHIS - Screwworm Situation Reports (scraped)",
+    "sourceUrl": "https://www.aphis.usda.gov/livestock-poultry-disease/cattle/new-world-screwworm",
+    "jurisdiction": "United States",
+    "usingLiveData": true
   },
   "summary": {
-    "totalCases": 156,
-    "activeCases": 23,
-    "newCases7d": 8,
-    "recoveryRate": 94.2,
-    "trend": "declining"
+    "totalCases": 44,
+    "activeCases": 8,
+    "newCases7d": 6,
+    "recoveryRate": 0,
+    "trend": "monitoring"
   },
   "hotspots": [
-    {"id":"tx-south-padre","name":"South Padre Island, TX","lat":26.1155,"lng":-97.167,"caseCount":12,"severity":"high","status":"containment","confirmedDate":"2024-06-01","cattlePopulation":125000,"riskLevel":"critical"},
-    {"id":"az-yuma","name":"Yuma County, AZ","lat":32.7157,"lng":-114.6294,"caseCount":5,"severity":"medium","status":"investigation","confirmedDate":"2024-05-28","cattlePopulation":48500,"riskLevel":"high"},
-    {"id":"nm-hidalgo","name":"Hidalgo County, NM","lat":32.3792,"lng":-108.7139,"caseCount":3,"severity":"low","status":"monitoring","confirmedDate":"2024-06-03","cattlePopulation":28200,"riskLevel":"moderate"},
-    {"id":"ca-imperial","name":"Imperial County, CA","lat":32.9088,"lng":-115.5603,"caseCount":2,"severity":"low","status":"monitoring","confirmedDate":"2024-05-30","cattlePopulation":15800,"riskLevel":"low"},
-    {"id":"fl-miami","name":"Miami-Dade County, FL","lat":25.7617,"lng":-80.1918,"caseCount":1,"severity":"low","status":"investigation","confirmedDate":"2024-06-02","cattlePopulation":8500,"riskLevel":"moderate"}
-  ]
+    {
+      "id": "fl-broward",
+      "name": "Broward County, FL",
+      "state": "FL",
+      "lat": 26.1224,
+      "lng": -80.1373,
+      "caseCount": 8,
+      "severity": "high",
+      "status": "containment",
+      "confirmedDate": "2024-11-01",
+      "cattlePopulation": 0,
+      "riskScore": 0.343,
+      "riskLevel": "moderate"
+    },
+    {
+      "id": "fl-miami",
+      "name": "Miami-Dade County, FL",
+      "state": "FL",
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "caseCount": 14,
+      "severity": "high",
+      "status": "containment",
+      "confirmedDate": "2024-11-01",
+      "cattlePopulation": 0,
+      "riskScore": 0.6,
+      "riskLevel": "high"
+    },
+    {
+      "id": "fl-collier",
+      "name": "Collier County, FL",
+      "state": "FL",
+      "lat": 26.1126,
+      "lng": -81.3994,
+      "caseCount": 5,
+      "severity": "medium",
+      "status": "monitoring",
+      "confirmedDate": "2024-11-15",
+      "cattlePopulation": 0,
+      "riskScore": 0.214,
+      "riskLevel": "moderate"
+    },
+    {
+      "id": "fl-hendry",
+      "name": "Hendry County, FL",
+      "state": "FL",
+      "lat": 26.4984,
+      "lng": -81.1126,
+      "caseCount": 3,
+      "severity": "medium",
+      "status": "monitoring",
+      "confirmedDate": "2024-11-20",
+      "cattlePopulation": 0,
+      "riskScore": 0.129,
+      "riskLevel": "moderate"
+    },
+    {
+      "id": "fl-palm-beach",
+      "name": "Palm Beach County, FL",
+      "state": "FL",
+      "lat": 26.7153,
+      "lng": -80.0534,
+      "caseCount": 2,
+      "severity": "low",
+      "status": "investigation",
+      "confirmedDate": "2024-12-01",
+      "cattlePopulation": 0,
+      "riskScore": 0.086,
+      "riskLevel": "moderate"
+    },
+    {
+      "id": "tx-hidalgo",
+      "name": "Hidalgo County, TX",
+      "state": "TX",
+      "lat": 26.1252,
+      "lng": -97.6437,
+      "caseCount": 6,
+      "severity": "medium",
+      "status": "containment",
+      "confirmedDate": "2025-01-10",
+      "cattlePopulation": 0,
+      "riskScore": 0.257,
+      "riskLevel": "moderate"
+    },
+    {
+      "id": "tx-cameron",
+      "name": "Cameron County, TX",
+      "state": "TX",
+      "lat": 26.15,
+      "lng": -97.45,
+      "caseCount": 4,
+      "severity": "medium",
+      "status": "monitoring",
+      "confirmedDate": "2025-01-15",
+      "cattlePopulation": 0,
+      "riskScore": 0.171,
+      "riskLevel": "moderate"
+    },
+    {
+      "id": "tx-starr",
+      "name": "Starr County, TX",
+      "state": "TX",
+      "lat": 26.5559,
+      "lng": -98.7595,
+      "caseCount": 2,
+      "severity": "low",
+      "status": "monitoring",
+      "confirmedDate": "2025-02-01",
+      "cattlePopulation": 0,
+      "riskScore": 0.086,
+      "riskLevel": "moderate"
+    }
+  ],
+  "timeline": []
 }
